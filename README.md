@@ -11,11 +11,18 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 ```
-1.Clone to local reposatry from main branch
-2.Run "composer i" command - to install depandancy
-4.Run migrations by "php artisan migrate"
-5.Run "php artisan serve" command - to start server
-6.Run "php artisan storage link" command - to connect storage to public folder for images
+1. Clone to local reposatry from main branch
+
+2. Run "composer i" command - to install depandancy
+
+4. Run migrations by "php artisan migrate"
+
+5. Run "php artisan serve" command - to start server
+
+6. Run "php artisan storage link" command - to connect storage to public folder for images
+
+7. To seed database please use: "php artisan seed:BookData".
+
 -- I have also uploaded the .env file for the easiness to testing.
 ```
 ### After configuring the project 
