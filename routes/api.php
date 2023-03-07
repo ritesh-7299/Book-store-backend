@@ -2,9 +2,7 @@
 
 use App\Http\Controllers\Api\AdminBookController;
 use App\Http\Controllers\Api\AuthController;
-use App\Http\Controllers\Api\SkillController;
 use App\Http\Controllers\Api\UserBookController;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,4 +31,3 @@ Route::middleware(['auth:sanctum'])->group(function () {
 //Api routes for normal users
 Route::get('index',[UserBookController::class,'index']);
 Route::get('show/{id}',[UserBookController::class,'show']);
-Route::get('filters',[UserBookController::class,'generateFilters']);
